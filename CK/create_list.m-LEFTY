@@ -9,3 +9,4 @@ for i=1:length(image_list)
     fprintf(list_fid,'%s %c\r\n', image_list{i}, b(end));
 end;
 fclose(list_fid);
+(
